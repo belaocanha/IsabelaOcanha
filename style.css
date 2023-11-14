@@ -8,14 +8,12 @@
   box-sizing: border-box;
 }
 
-html {
+html, body {
   height: 100%;
 }
 body {
-  height: 100%;
   font-family: 'Quicksand', sans-serif;
- color: rgba(0, 0, 0, 0.6);
-  box-sizing: border-box;
+  color: #000000;
   font-size: 14px;
   overflow: hidden;
   background: #fafafa;
@@ -64,11 +62,17 @@ a {
 p {
   margin-bottom: 1.5em; }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h4, h5, h6 {
   color: #000;
   font-family: "Quicksand", Arial, sans-serif;
   font-weight: 400;
   margin: 0 0 30px 0; }
+
+h3 {
+  color: #000;
+  font-family: "Quicksand", Arial, sans-serif;
+  font-weight: 400;
+  margin: 0 0 5px 0; }
 
 
 i.material-icons {
@@ -401,9 +405,9 @@ Page Styles
 
 .sm-text {
     letter-spacing: 2.1px;
-    font-weight: normal;
+    font-weight: bold;
     color: #222222;
-    font-size: 14px;
+    font-size: 16px;
     font-family: "Roboto", sans-serif;
     text-transform: uppercase;
 }
@@ -429,6 +433,7 @@ Page Styles
 .text {
    
     font-size: 15px;
+    text-align: justify;
 }
 
 .pr-list {
@@ -464,7 +469,7 @@ Page Styles
     transform: scale(1.2) translateY(-5px);
 }
 .sec-title {
-    margin-bottom: 50px;
+    margin-bottom: 0px;
 }
 
 .pg-title {
@@ -484,4 +489,196 @@ Page Styles
     color: #999999;
     font-weight: 500;
     letter-spacing: 5px;
+}
+
+.skill{
+  width: 500px;
+  margin: 60px auto;
+  color: #fff;
+  padding: 20px;
+  background: rgb(94, 34, 94);
+  border-radius: 9px;
+  box-shadow: 0 14px 20px rgba(42, 12, 51, 0.123), 0 10px 10px rgba(42, 12, 51, 0.25);
+}
+
+
+.skill li{
+  margin: 20px 0;
+  padding: 10px;
+}
+
+.bar {
+  background: rgb(255, 255, 255);
+  display: block;
+  height: 20px;
+  border: 1px solid rgba(0,0,0,0.3);
+  border-radius: 7px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.bar:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.bar span {
+  height: 20px;
+  float: left;
+  background: linear-gradient(135deg, rgb(68, 0, 77)0%, rgb(167, 108, 164)100%);
+}
+
+.ingles {
+  width: 95%;
+  animation: ingles 3s;
+}
+
+.jira {
+  width: 65%;
+  animation: jira 3s;
+}
+
+.confluence {
+  width: 65%;
+  animation: confluence 3s;
+}
+
+.kanban {
+  width: 65%;
+  animation: kanban 3s;
+}
+
+.excel {
+  width: 70%;
+  animation: excel 3s;
+}
+
+.ppt {
+  width: 75%;
+  animation: ppt 3s;
+}
+
+.word {
+  width: 75%;
+  animation: word 3s;
+}
+
+.c {
+  width: 45%;
+  animation: html 3s;
+}
+
+.html {
+  width: 50%;
+  animation: html 3s;
+}
+
+.css {
+  width: 50%;
+  animation: css 3s;
+}
+
+.sql {
+  width: 35%;
+  animation: sql 3s;
+}
+
+@keyframes ingles {
+  0%{
+      width: 0%;
+  }
+  100%{
+      width: 95%;
+  }
+}
+
+@keyframes jira {
+  0%{
+      width: 0%;
+  }
+  100%{
+      width: 65%;
+  }
+}
+
+@keyframes confluence {
+  0%{
+      width: 0%;
+  }
+  100%{
+      width: 65%;
+  }
+}
+
+@keyframes kanban {
+  0%{
+      width: 0%;
+  }
+  100%{
+      width: 65%;
+  }
+}
+
+@keyframes excel {
+  0%{
+      width: 0%;
+  }
+  100%{
+      width: 70%;
+  }
+}
+
+@keyframes ppt {
+  0%{
+      width: 0%;
+  }
+  100%{
+      width: 75%;
+  }
+}
+
+@keyframes word {
+  0%{
+      width: 0%;
+  }
+  100%{
+      width: 75%;
+  }
+}
+
+@keyframes c {
+  0%{
+      width: 0%;
+  }
+  100%{
+      width: 45%;
+  }
+}
+
+
+@keyframes html {
+  0%{
+      width: 0%;
+  }
+  100%{
+      width: 50%;
+  }
+}
+
+@keyframes css {
+  0%{
+      width: 0%;
+  }
+  100%{
+      width: 50%;
+  }
+}
+
+@keyframes sql {
+  0%{
+      width: 0%;
+  }
+  100%{
+      width: 35%;
+  }
 }
