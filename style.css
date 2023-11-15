@@ -534,52 +534,52 @@ Page Styles
 }
 
 .jira {
-  width: 65%;
+  width: 50%;
   animation: jira 3s;
 }
 
 .confluence {
-  width: 65%;
+  width: 50%;
   animation: confluence 3s;
 }
 
 .kanban {
-  width: 65%;
+  width: 50%;
   animation: kanban 3s;
 }
 
 .excel {
-  width: 70%;
+  width: 65%;
   animation: excel 3s;
 }
 
 .ppt {
-  width: 75%;
+  width: 65%;
   animation: ppt 3s;
 }
 
 .word {
-  width: 75%;
+  width: 65%;
   animation: word 3s;
 }
 
 .c {
-  width: 45%;
+  width: 40%;
   animation: html 3s;
 }
 
 .html {
-  width: 50%;
+  width: 45%;
   animation: html 3s;
 }
 
 .css {
-  width: 50%;
+  width: 45%;
   animation: css 3s;
 }
 
 .sql {
-  width: 35%;
+  width: 30%;
   animation: sql 3s;
 }
 
@@ -597,7 +597,7 @@ Page Styles
       width: 0%;
   }
   100%{
-      width: 65%;
+      width: 50%;
   }
 }
 
@@ -606,7 +606,7 @@ Page Styles
       width: 0%;
   }
   100%{
-      width: 65%;
+      width: 50%;
   }
 }
 
@@ -615,7 +615,7 @@ Page Styles
       width: 0%;
   }
   100%{
-      width: 65%;
+      width: 50%;
   }
 }
 
@@ -624,7 +624,7 @@ Page Styles
       width: 0%;
   }
   100%{
-      width: 70%;
+      width: 65%;
   }
 }
 
@@ -633,7 +633,7 @@ Page Styles
       width: 0%;
   }
   100%{
-      width: 75%;
+      width: 65%;
   }
 }
 
@@ -642,7 +642,7 @@ Page Styles
       width: 0%;
   }
   100%{
-      width: 75%;
+      width: 65%;
   }
 }
 
@@ -651,7 +651,7 @@ Page Styles
       width: 0%;
   }
   100%{
-      width: 45%;
+      width: 40%;
   }
 }
 
@@ -661,7 +661,7 @@ Page Styles
       width: 0%;
   }
   100%{
-      width: 50%;
+      width: 45%;
   }
 }
 
@@ -670,7 +670,7 @@ Page Styles
       width: 0%;
   }
   100%{
-      width: 50%;
+      width: 45%;
   }
 }
 
@@ -679,6 +679,6 @@ Page Styles
       width: 0%;
   }
   100%{
-      width: 35%;
+      width: 30%;
   }
 }
